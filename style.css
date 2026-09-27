@@ -1,0 +1,81 @@
+/* Poly's own colours, so the legal pages don't look like someone else's site. */
+:root {
+  --ink: #004523;
+  --paper: #e0edd8;
+  --accent: #b9da61;
+  --muted: #56665e;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 48px 16px 96px;
+  background: var(--paper);
+  color: var(--ink);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 15px;
+  color: var(--muted);
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: -0.4px;
+}
+
+h2 {
+  margin: 40px 0 12px;
+  font-size: 21px;
+  letter-spacing: -0.2px;
+}
+
+.updated {
+  margin: 0;
+  font-size: 15px;
+  color: var(--muted);
+}
+
+p, li { margin: 0 0 14px; }
+
+ul { padding-left: 22px; }
+
+a {
+  color: var(--ink);
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+strong { font-weight: 600; }
+
+.lede {
+  padding: 20px;
+  border-radius: 16px;
+  background: #fff;
+}
+
+footer {
+  margin-top: 56px;
+  padding-top: 20px;
+  border-top: 1px solid #c7d9bc;
+  font-size: 15px;
+  color: var(--muted);
+}
+
+footer a { color: var(--muted); }
