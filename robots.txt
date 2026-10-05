@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sonalrastogi08.github.io/poly-site/sitemap.xml
